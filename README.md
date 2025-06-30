@@ -54,23 +54,28 @@ Nota: No Linux ou macOS, substitua o ponto e vírgula ; por dois pontos : no cla
 ```bash
 java -cp .:gson-<versão>.jar principalComApi
 ```
-Insira os CEPs quando solicitado (exemplo: 01001-000), pressione Enter após cada um.
+## Uso da aplicação ✍️
 
-Para finalizar a inserção, siga a instrução exibida no programa (exemplo: deixar vazio e pressionar Enter).
+Insira os CEPs quando solicitado, no formato exemplo:
+01001-000
+Após digitar cada CEP, pressione Enter.
 
-Arquivo de saída 💾
+Para finalizar a inserção, basta seguir a instrução do programa:
+geralmente, deixe o campo vazio e pressione Enter.
+
+## Arquivo de saída 💾
 Os dados consultados serão salvos no arquivo Cps.txt na raiz do projeto, no formato JSON.
 
-Você poderá reutilizar ou analisar os dados posteriormente com qualquer ferramenta que leia JSON.
+Você poderá reutilizar ou analisar esses dados posteriormente utilizando qualquer ferramenta compatível com JSON.
 
-Observações ⚠️
-O programa depende da disponibilidade da API ViaCEP.
+## Observações ⚠️
+O funcionamento do programa depende da disponibilidade da API ViaCEP.
 
-Caso a API não retorne dados para um CEP informado, o programa trata e informa o erro.
+Caso a API não retorne dados para um CEP informado, o programa exibe uma mensagem de erro informando o problema.
 
-A inclusão da biblioteca Gson é essencial para a correta manipulação dos dados JSON.
+É imprescindível incluir a biblioteca Gson para manipulação correta dos dados JSON.
 
-Referências 🔗
+## Referências 🔗
 API ViaCEP: https://viacep.com.br/
 
 Biblioteca Gson: https://github.com/google/gson
