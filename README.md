@@ -88,6 +88,4 @@ API ViaCEP: https://viacep.com.br/
 Biblioteca Gson: https://github.com/google/gson
 
 
-```css
-Se quiser, posso ajudar a gerar badges, GIFs ou outras coisas para deixar seu README ainda mais profissional!
-```
+
