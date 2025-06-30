@@ -63,20 +63,31 @@ Após digitar cada CEP, pressione Enter.
 
 Para finalizar a inserção, basta seguir a instrução do programa:
 geralmente, deixe o campo vazio e pressione Enter.
+
 ---
 ## Arquivo de saída 💾
+
 Os dados consultados serão salvos no arquivo Cps.txt na raiz do projeto, no formato JSON.
 
 Você poderá reutilizar ou analisar esses dados posteriormente utilizando qualquer ferramenta compatível com JSON.
+
 ---
 ## Observações ⚠️
+
 O funcionamento do programa depende da disponibilidade da API ViaCEP.
 
 Caso a API não retorne dados para um CEP informado, o programa exibe uma mensagem de erro informando o problema.
 
 É imprescindível incluir a biblioteca Gson para manipulação correta dos dados JSON.
+
 ---
 ## Referências 🔗
+
 API ViaCEP: https://viacep.com.br/
 
 Biblioteca Gson: https://github.com/google/gson
+
+
+```css
+Se quiser, posso ajudar a gerar badges, GIFs ou outras coisas para deixar seu README ainda mais profissional!
+```
