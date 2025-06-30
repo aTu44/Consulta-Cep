@@ -54,6 +54,7 @@ Nota: No Linux ou macOS, substitua o ponto e vírgula ; por dois pontos : no cla
 ```bash
 java -cp .:gson-<versão>.jar principalComApi
 ```
+---
 ## Uso da aplicação ✍️
 
 Insira os CEPs quando solicitado, no formato exemplo:
@@ -62,19 +63,19 @@ Após digitar cada CEP, pressione Enter.
 
 Para finalizar a inserção, basta seguir a instrução do programa:
 geralmente, deixe o campo vazio e pressione Enter.
-
+---
 ## Arquivo de saída 💾
 Os dados consultados serão salvos no arquivo Cps.txt na raiz do projeto, no formato JSON.
 
 Você poderá reutilizar ou analisar esses dados posteriormente utilizando qualquer ferramenta compatível com JSON.
-
+---
 ## Observações ⚠️
 O funcionamento do programa depende da disponibilidade da API ViaCEP.
 
 Caso a API não retorne dados para um CEP informado, o programa exibe uma mensagem de erro informando o problema.
 
 É imprescindível incluir a biblioteca Gson para manipulação correta dos dados JSON.
-
+---
 ## Referências 🔗
 API ViaCEP: https://viacep.com.br/
 
